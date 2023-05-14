@@ -26,7 +26,7 @@ It helps customer who is devoloping products in cloudnative environment as follo
 
 
 <table><tr><th valign="top">Module</td><th valign="top">Use Cases</td><th valign="top">Description</td></tr>
-<tr><td valign="top">Cloud CMDB</td><td valign="top"></td><td valign="top"></td></tr>
+<tr><td valign="top"><b>Cloud CMDB</b></td><td valign="top"></td><td valign="top"></td></tr>
 <tr><td rowspan="23" valign="top"></td><td valign="top">Cloud Asset Discovery</td><td valign="top"></td></tr>
 <tr></td><td valign="top">Cloud Asset to Business Manual Association</td><td valign="top"></td></tr>
 <tr></td><td valign="top">Environment Wise Infra View</td><td valign="top"></td></tr>
@@ -51,7 +51,7 @@ It helps customer who is devoloping products in cloudnative environment as follo
 <tr></td><td valign="top">Cloud Services Mesh</td><td valign="top"></td></tr>
 <tr></td><td valign="top">Data Mesh Support</td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Service Topology and Its drilldown</td><td valign="top"></td></tr>
-<tr><td valign="top">Automation Central</td><td valign="top"></td><td valign="top"></td></tr>
+<tr><td valign="top"><b>Automation Central</b></td><td valign="top"></td><td valign="top"></td></tr>
 <tr><td rowspan="13" valign="top"></td><td valign="top">Add landing Zone</td><td valign="top"></td></tr>
 <tr></td><td valign="top">Add product enclave</td><td valign="top"></td></tr>
 <tr></td><td valign="top">Add cluster</td><td valign="top"></td></tr>
@@ -65,48 +65,48 @@ It helps customer who is devoloping products in cloudnative environment as follo
 <tr></td><td valign="top">Run Audits on Product Enclave</td><td valign="top"></td></tr>
 <tr></td><td valign="top">Run Audits on Cluster</td><td valign="top"></td></tr>
 <tr></td><td valign="top">Self Service Provisioning – Org / Business </td><td valign="top"></td></tr>
-<tr><td valign="top">Security/RBAC </td><td valign="top"></td><td valign="top"></td></tr>
+<tr><td valign="top"><b>Security/RBAC</b> </td><td valign="top"></td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top"><p>Add/Update/Delete</p><p>Users / Groups / Role / Transactions</p></td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Add Configurable Authentication methods for users</td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Define RBAC for User/ Group / Roles </td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Integrate Vault for storing Authentication Details.</td><td valign="top"></td></tr>
-<tr><td valign="top">Catalogue Management</td><td valign="top"></td><td valign="top"></td></tr>
+<tr><td valign="top"><b>Catalogue Management</b></td><td valign="top"></td><td valign="top"></td></tr>
 <tr><td rowspan="3" valign="top"></td><td valign="top">View / Search Global Catalogue</td><td valign="top"></td></tr>
 <tr></td><td valign="top">Manage artifact libraries</td><td valign="top"></td></tr>
 <tr></td><td valign="top">Import Artifacts</td><td valign="top"></td></tr>
-<tr><td valign="top">Preference Management</td><td valign="top"></td><td valign="top"></td></tr>
+<tr><td valign="top"><b>Preference Management</b></td><td valign="top"></td><td valign="top"></td></tr>
 <tr><td rowspan="5" valign="top"></td><td valign="top">User / Group / Role Management</td><td valign="top"></td></tr>
 <tr></td><td valign="top">Vault Integration</td><td valign="top"></td></tr>
 <tr></td><td valign="top">Environment Specific Watcher / Jobs on /off</td><td valign="top"></td></tr>
 <tr></td><td valign="top">SLA / Cost Update Periodicity</td><td valign="top"></td></tr>
 <tr></td><td valign="top">Manage Metric / Log / Trace Databases</td><td valign="top"></td></tr>
-<tr><td valign="top">Vault</td><td valign="top"></td><td valign="top"></td></tr>
+<tr><td valign="top"><b>Vault</b></td><td valign="top"></td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Store/ Retrieve Cloud Env Details in Vault</td><td valign="top"></td></tr>
-<tr><td valign="top">Metric Central</td><td valign="top"></td><td valign="top"></td></tr>
+<tr><td valign="top"><b>Metric Central</b></td><td valign="top"></td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Get Metrics of Cloud Element directly with Vault</td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Get Metric of Cloud Element from Prometheus & Vault</td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Add Metric Database in K8 cluster</td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Provision Dynamic Prometheus Agents for Account / Cloud Elements</td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Manage Prometheus Pool of Agents (Add / update / Delete)</td><td valign="top"></td></tr>
-<tr><td valign="top">Log Central</td><td valign="top"></td><td valign="top"></td></tr>
+<tr><td valign="top"><b>Log Central</b></td><td valign="top"></td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Search Logs of Cloud Element directly with Vault</td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Search Logs of Cloud Element from Promtail / logdb & Vault</td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Add Logdb Database in K8 cluster</td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Provision Dynamic Prom tail log Agents for Account / Cloud Elements</td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Manage Prometheus Pool of Log Agents (Add / update / Delete)</td><td valign="top"></td></tr>
-<tr><td valign="top">Trace Central</td><td valign="top"></td><td valign="top"></td></tr>
+<tr><td valign="top"><b>Trace Central</b></td><td valign="top"></td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Search Traces of Cloud Element directly with Vault & AWS XRAY</td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Search Logs of Cloud Element from TraceDb & Vault</td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Add Trace Db Database in K8 cluster</td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Set/ Configure Cloud Elements to pass its trace data</td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top"></td><td valign="top"></td></tr>
-<tr><td valign="top">Cost Central</td><td valign="top"></td><td valign="top"></td></tr>
+<tr><td valign="top"><b>Cost Central</b></td><td valign="top"></td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Evaluate Services and Cloud Elements costs periodically and store them in Metric DB – create watcher</td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Can start / stop watcher for cloud elements dynamically</td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Add metric DB in k8 cluster for Cost</td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Evaluate Services and Cloud Elements costs trends periodically and store them in Metric DB – create watcher</td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Add Cost oriented Alerting rules and evaluate them periodically</td><td valign="top"></td></tr>
-<tr><td valign="top">SLA Central</td><td valign="top"></td><td valign="top"></td></tr>
+<tr><td valign="top"><b>SLA Central</b></td><td valign="top"></td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Evaluate Services and Cloud Elements SLA’s periodically and store them in Metric DB – create watcher</td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Can start / stop watcher for cloud elements dynamically</td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Add metric DB in k8 cluster for SLA’s</td><td valign="top"></td></tr>
@@ -114,8 +114,11 @@ It helps customer who is devoloping products in cloudnative environment as follo
 <tr><td valign="top"></td><td valign="top">Add SLA oriented Alerting rules and evaluate them periodically</td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Search Queries and API’s on SLA’s</td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Transfer SLA tuples to Drill Down Analytics for doing SLA analysis</td><td valign="top"></td></tr>
-<tr><td valign="top">Compliance Central</td><td valign="top"></td><td valign="top"></td></tr>
-<tr><td valign="top">Artifact Editor</td><td valign="top"></td><td valign="top"></td></tr>
+<tr><td valign="top"><b>Compliance Central</b></td><td valign="top"></td><td valign="top"></td></tr>
+<tr><td valign="top"></td><td valign="top">Create / Update / Delete Compliance Rules & Policies</td><td valign="top"></td></tr>
+<tr><td valign="top"></td><td valign="top">Run compliances on Cloud Element against set of rules and policies</td><td valign="top"></td></tr>
+<tr><td valign="top"></td><td valign="top">Store compliance result sets in github and do the change analysis</td><td valign="top"></td></tr>
+<tr><td valign="top"><b>Artifact Editor</b></td><td valign="top"></td><td valign="top"></td></tr>
 <tr><td rowspan="7" valign="top"></td><td valign="top"><p>A generic DS where we can fire metric / logs / trace /Api’s request and</p><p>Can develop application in speedy way</p></td><td valign="top"></td></tr>
 <tr></td><td valign="top">Modify standalone UI to consume Artifact Json Easily</td><td valign="top"></td></tr>
 <tr></td><td valign="top">Create/ Publish Dashboard in Global Catalogue</td><td valign="top"></td></tr>
@@ -123,20 +126,20 @@ It helps customer who is devoloping products in cloudnative environment as follo
 <tr></td><td valign="top">Create/ Publish Automation in Global Catalogue</td><td valign="top"></td></tr>
 <tr></td><td valign="top">List Artifacts in Global Catalogue</td><td valign="top"></td></tr>
 <tr></td><td valign="top">Search Artifacts in Global Catalogue</td><td valign="top"></td></tr>
-<tr><td valign="top">Appkube Operator</td><td valign="top"></td><td valign="top"></td></tr>
+<tr><td valign="top"><b>Appkube Operator</b></td><td valign="top"></td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Individual Services Operator</td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">whole Appkube Service Operator</td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Procurement App Operator</td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">EMS App Operator</td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top"></td><td valign="top"></td></tr>
-<tr><td valign="top">Cluster Explorer</td><td valign="top"></td><td valign="top"></td></tr>
+<tr><td valign="top"><b>Cluster Explorer</b></td><td valign="top"></td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Cluster Home Page</td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Services Page</td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Individual App Service Explorer</td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Individual Data Service Explorer</td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Cluster Reliability Dashboards</td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top"></td><td valign="top"></td></tr>
-<tr><td valign="top">Cloud Element Explorer</td><td valign="top"></td><td valign="top"></td></tr>
+<tr><td valign="top"><b>Cloud Element Explorer</b></td><td valign="top"></td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">S3 Explorer</td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Lambda Explorer</td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">NLB Explorer</td><td valign="top"></td></tr>
@@ -145,7 +148,7 @@ It helps customer who is devoloping products in cloudnative environment as follo
 <tr><td valign="top"></td><td valign="top">CDN Explorer</td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Waf Explorer</td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Data lake Services Explorer</td><td valign="top"></td></tr>
-<tr><td valign="top">Alert Manager</td><td valign="top"></td><td valign="top"></td></tr>
+<tr><td valign="top"><b>Alert Manager</b></td><td valign="top"></td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Alert Home Page and Filters</td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Integration of Notification Channels</td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Alert rules discovery and provision in Prometheus</td><td valign="top"></td></tr>
@@ -156,13 +159,13 @@ It helps customer who is devoloping products in cloudnative environment as follo
 <tr><td valign="top"></td><td valign="top">All dashboard and Prometheus Alert Rules Discovery</td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Silence / Dedup / Process alerts</td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Alert integration with Cost and SLA central</td><td valign="top"></td></tr>
-<tr><td valign="top">Service Desk</td><td valign="top"></td><td valign="top"></td></tr>
+<tr><td valign="top"><b>Service Desk</b></td><td valign="top"></td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Manage Agents / Op -Leads / Customer</td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">SLA reports</td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Ticket to Run jobs integration</td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Analytics</td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Reporting</td><td valign="top"></td></tr>
-<tr><td valign="top">Dev Central</td><td valign="top"></td><td valign="top"></td></tr>
+<tr><td valign="top"><b>Dev Central</b></td><td valign="top"></td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Generators</td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Delivery Central</td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Quality Central</td><td valign="top"></td></tr>
@@ -178,7 +181,7 @@ It helps customer who is devoloping products in cloudnative environment as follo
 <tr><td valign="top"></td><td valign="top">Code Vulnerability</td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Container Management</td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">FAAS Tooling</td><td valign="top"></td></tr>
-<tr><td valign="top">Ops Central</td><td valign="top"></td><td valign="top"></td></tr>
+<tr><td valign="top"><b>Ops Central</b></td><td valign="top"></td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">ChatOps</td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">AI-OPS</td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Optimizer</td><td valign="top"></td></tr>
@@ -187,7 +190,7 @@ It helps customer who is devoloping products in cloudnative environment as follo
 <tr><td valign="top"></td><td valign="top">Tools/ Diagnostics</td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Change Central</td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Script Central</td><td valign="top"></td></tr>
-<tr><td valign="top">Sec Central</td><td valign="top"></td><td valign="top"></td></tr>
+<tr><td valign="top"><b>Sec Central</b></td><td valign="top"></td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Infra Security</td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">App Security</td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Data Security</td><td valign="top"></td></tr>
@@ -196,14 +199,15 @@ It helps customer who is devoloping products in cloudnative environment as follo
 <tr><td valign="top"></td><td valign="top">RBAC</td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Vault Management</td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Certificate Management</td><td valign="top"></td></tr>
-<tr><td valign="top">Analytics</td><td valign="top"></td><td valign="top"></td></tr>
+<tr><td valign="top"><b>Analytics</b></td><td valign="top"></td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Drill Down Analytics</td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Views Management</td><td valign="top"></td></tr>
-<tr><td valign="top">Report Central</td><td valign="top"></td><td valign="top"></td></tr>
+<tr><td valign="top"><b>Report Central</b></td><td valign="top"></td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Daily/ Weekly / Monthly / Quarterly Cost & SLA reports</td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">PROD/ Non-Prod </td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Top 10 reports</td><td valign="top"></td></tr>
 </table>
+
 
 ## RoadMap & Releases 
 
