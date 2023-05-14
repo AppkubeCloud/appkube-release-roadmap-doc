@@ -1,11 +1,12 @@
 - [Introduction](#introduction)
+- [Key-Modules](#key-modules)
 - [Key-Modules-and-UseCases](#key-modules-and-usecases)
 # Introduction
 This document will detail about Appkube roadmap and releases.
 
 Synectiks Appkube is a SRE platform that primarily focuses on following :
 
-- Manage distributed microservices cost & Quality (container & server less) in multicloud hybrid environment
+- Manage distributed microservices Cost & Quality (container & server less) in multicloud hybrid environment
 - Deliver reusable common App Blocks to write enterprise products with reduced coding effort
 - Deliver DevSecOps tooling to write cloud native products
 
@@ -16,9 +17,13 @@ It helps customer who is devoloping products in cloudnative environment as follo
 - Reduce Cloud Capex by 25%
 - Reduce Development Effort by 50%
 
-## Key-Modules-and-UseCases
+## Key-Modules
 
 ![AppkubeModules](./images/appkube-modules.png)
+
+## Key-Modules-and-UseCases
+
+
 
 <table><tr><th valign="top">Module</td><th valign="top">Use Cases</td><th valign="top">Description</td></tr>
 <tr><td valign="top">Cloud CMDB</td><td valign="top"></td><td valign="top"></td></tr>
