@@ -39,7 +39,8 @@ It helps customer who is devoloping products in cloudnative environment as follo
 <tr></td><td valign="top">Product wise Services SLA Explorer</td><td valign="top"></td></tr>
 <tr></td><td valign="top">Filters in Asset Home Page</td><td valign="top"></td></tr>
 <tr></td><td valign="top">Add department / product / Env Manually</td><td valign="top"></td></tr>
-<tr></td><td valign="top">Unused Assets / Manually Associated Assets/ Auto discovered Assets</td><td valign="top"></td></tr>
+<tr></td><td valign="top">Tag cloud element with busines entities</td><td valign="top"></td></tr>
+<tr></td><td valign="top">Segregate Unused Assets / Manually Associated Assets/ Auto discovered Assets</td><td valign="top"></td></tr>
 <tr></td><td valign="top">Set logs for Element</td><td valign="top"></td></tr>
 <tr></td><td valign="top">Set Trace for Element</td><td valign="top"></td></tr>
 <tr></td><td valign="top">Enable Monitoring for Cloud Elements</td><td valign="top"></td></tr>
@@ -49,7 +50,7 @@ It helps customer who is devoloping products in cloudnative environment as follo
 <tr></td><td valign="top">Filter Non-Secure / Non-Compliant Assets</td><td valign="top"></td></tr>
 <tr></td><td valign="top">Add product deployment JSON in GitHub from automation central and the corresponding details are imported in CMDB.</td><td valign="top"></td></tr>
 <tr></td><td valign="top">Cloud Services Mesh</td><td valign="top"></td></tr>
-<tr></td><td valign="top">Data Mesh Support</td><td valign="top"></td></tr>
+<tr><td valign="top"></td><td valign="top">Data Mesh Support</td><td valign="top"></td></tr>
 <tr><td valign="top"></td><td valign="top">Service Topology and Its drilldown</td><td valign="top"></td></tr>
 <tr><td valign="top"><b>Automation Central</b></td><td valign="top"></td><td valign="top"></td></tr>
 <tr><td rowspan="13" valign="top"></td><td valign="top">Add landing Zone</td><td valign="top"></td></tr>
@@ -209,11 +210,43 @@ It helps customer who is devoloping products in cloudnative environment as follo
 </table>
 
 
-## RoadMap & Releases 
+# **RoadMap & Releases**
 
-|Module | UseCases | Description | 
-|:---|:---|:---|
-|CMDB | id of the element | int |unique id |
+## **Release 0.0.0.1**
+
+**Date of Release** ---**26th May 2023**
+### **Features**
+- Cloud Asset Discovery -- This rease will focus on cloud element discovery and display of different cloud accounts. For any AWS account , 
+given the crossAccountRoleArn and ID , the product should diplay every VPC's and corresponding hardwares elements in a comprehensive format.
+
+#### **Included Use Cases**
+
+|Module| Use-Cases| Description | Acceptance Tests|
+|:---|:---|:---|:---|
+|CMDB| Cloud Asset Discovery | Given an account , discover its elements |Find and verify the list of Cloud Elements in product |
+|CMDB| Environment Wise Infra View | List all elements Account / VPC wise - Do Further Navigatios on elements |Find and verify the elements and configs|
+|CMDB| Environment Wise Infra View | List all elements Account / VPC wise - Do Further Navigatios on elements |Find and verify the elements and configs|
+|Security/RBAC| Add/Update/Delete Users / Groups / Role / Transactions| Basic functions of security module |Check CRUD of user/ group/roles|
+|VAULT| Store/ Retrieve Cloud Env Details in Vault| List all elements Account / VPC wise - Do Further Navigatios on elements |Find and verify the elements and configs|
+|Appkube Operator|Write Appkube Operator| Deploy CMDB/VAULT/SECURITY service with istio gateway and LB in EKS |UI can access the API's with LB url-api.synectiks.net|
+
+## **Release 0.0.0.2**
+
+**Date of Release** ---**9th June 2023**
+### **Features**
+- Cloud Asset to Business – Manual Association -- This rease will focus on associating the discovered cloud elements with business entities 
+  (Department - Product - Env - Microservices - (firewall/Gw/LB/App&Data layer)
+#### **Included Use Cases**
+
+|Module| Use-Cases| Description | Acceptance Tests|
+|:---|:---|:---|:---|
+|CMDB| Add department / product / Env Manually | In organization , we can add dpeartment/product/env/service/app layer/data layer manually |Find and verify the added element in UI |
+|CMDB| Environment Wise Infra View | List all elements Account / VPC wise - Do Further Navigatios on elements |Find and verify the elements and configs|
+|CMDB| Environment Wise Infra View | List all elements Account / VPC wise - Do Further Navigatios on elements |Find and verify the elements and configs|
+|Security/RBAC| Add/Update/Delete Users / Groups / Role / Transactions| Basic functions of security module |Check CRUD of user/ group/roles|
+|VAULT| Store/ Retrieve Cloud Env Details in Vault| List all elements Account / VPC wise - Do Further Navigatios on elements |Find and verify the elements and configs|
+|Appkube Operator|Write Appkube Operator| Deploy CMDB/VAULT/SECURITY service with istio gateway and LB in EKS |UI can access the API's with LB url-api.synectiks.net|
+
 
 Asset Discovery  /// 0.0.1
 Dashboard Catalogue /// 0.0.2
