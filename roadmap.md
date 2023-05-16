@@ -224,7 +224,7 @@ given the crossAccountRoleArn and ID , the product should diplay every VPC's and
 |:---|:---|:---|:---|
 |CMDB| Cloud Asset Discovery | Given an account , discover its elements |Find and verify the list of Cloud Elements in product |
 |CMDB| Environment Wise Infra View | List all elements Account / VPC wise - Do Further Navigatios on elements |Find and verify the elements and configs|
-|CMDB| Environment Wise Infra View | List all elements Account / VPC wise - Do Further Navigatios on elements |Find and verify the elements and configs|
+|CMDB| Filters in Asset Home Page| Filter with Departments / Products / Env / Accounts/ Zone |Verify all the filters in home page are working.|
 |Security/RBAC| Add/Update/Delete Users / Groups / Role / Transactions| Basic functions of security module |Check CRUD of user/ group/roles|
 |VAULT| Store/ Retrieve Cloud Env Details in Vault| List all elements Account / VPC wise - Do Further Navigatios on elements |Find and verify the elements and configs|
 |Appkube Operator|Write Appkube Operator| Deploy CMDB/VAULT/SECURITY service with istio gateway and LB in EKS |UI can access the API's with LB url-api.synectiks.net|
