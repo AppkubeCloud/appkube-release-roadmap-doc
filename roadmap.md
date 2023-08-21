@@ -17,11 +17,14 @@ Our App-centric Optimization platform improves business reliability and reduce u
 
 How?
 
-Improving Actual Vs Non Actual business to infrastructure usage ratio.
-Accelerated App blocks that rapidly build container/ serverless Apps with 
-high quality and optimal cost
-Simplified high precision cost & quality insights of INFRA & APP
+- Improving Actual Vs Non Actual business to infrastructure usage ratio.
 
+- Accelerated App blocks that rapidly build container/ serverless Apps with 
+high quality and optimal cost
+
+- Simplified high precision cost & quality insights of INFRA & APP
+
+--------------
 
 This document will detail about Appkube roadmap and releases.
 
