@@ -1,7 +1,28 @@
 - [Introduction](#introduction)
-- [Key-Modules](#key-modules)
-- [Key-Modules-and-UseCases](#key-modules-and-usecases)
+  - [Key-Modules](#key-modules)
+  - [Key-Modules-and-UseCases](#key-modules-and-usecases)
+- [**RoadMap \& Releases**](#roadmap--releases)
+  - [**Release 0.0.0.1**](#release-0001)
+    - [**Features**](#features)
+      - [**Included Use Cases**](#included-use-cases)
+  - [**Release 0.0.0.2**](#release-0002)
+    - [**Features**](#features-1)
+      - [**Included Use Cases**](#included-use-cases-1)
+    - [phase2- architecture](#phase2--architecture)
 # Introduction
+
+What We Do ?
+
+Our App-centric Optimization platform improves business reliability and reduce up to 90% cloud spend.
+
+How?
+
+Improving Actual Vs Non Actual business to infrastructure usage ratio.
+Accelerated App blocks that rapidly build container/ serverless Apps with 
+high quality and optimal cost
+Simplified high precision cost & quality insights of INFRA & APP
+
+
 This document will detail about Appkube roadmap and releases.
 
 Synectiks Appkube is a SRE platform that primarily focuses on following :
